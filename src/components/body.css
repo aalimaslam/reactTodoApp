@@ -1,0 +1,40 @@
+input,button{
+    padding:10px 30px;
+    background:white;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+}
+button{
+    padding:0px;
+}
+i{
+    color:#123456;
+    padding:10px;
+    cursor: pointer;
+    margin:5px;
+}
+.search-container{
+    padding:10px;
+    background:white;
+    color:#123456;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.heading{
+    padding:20px;
+    text-align: center;
+    color:white;
+    font-size: 2rem;
+}
+.heading::first-letter{
+    font-size:4rem;
+}
+.todo{
+    background:white;
+    padding:10px;
+    margin-top:10px;
+    border-radius: 5px;
+}
